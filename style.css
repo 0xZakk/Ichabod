@@ -34,8 +34,6 @@ body {
  * Login Form styles
  */
 #loginform {
-    margin: auto;
-    width: 80%;
     max-width: 250px;
 }
 
