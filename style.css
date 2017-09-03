@@ -30,7 +30,9 @@ body {
     width: 100%;
     display: flex;
 }
-
+/*
+ * Login Form styles
+ */
 #loginform {
     margin: auto;
     width: 80%;
@@ -41,7 +43,6 @@ label {
     display: block;
     text-transform: uppercase;
     color: #868e96;
-    /* letter-spacing: 2px; */
 }
 
 input[type=text],
@@ -58,4 +59,39 @@ input[type=submit] {
     background-color: #212529;
     color: white;
     padding: 0.5rem 1rem;
+}
+
+/*
+ * Logged In Menu
+ */
+.container {
+    margin: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.menu {
+    display: block;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    list-style-type: none
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #868e96;
+    transition: color 300ms ease;
+    padding: 0.5rem 1.5rem;
+}
+
+.menu a:hover {
+    color: #212529;
 }
