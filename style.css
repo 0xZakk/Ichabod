@@ -9,3 +9,53 @@ License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: ichabod
 */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #212529;
+    font-size: 16px;
+}
+
+#page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#loginform {
+    margin: auto;
+    width: 80%;
+    max-width: 250px;
+}
+
+label {
+    display: block;
+    text-transform: uppercase;
+    color: #868e96;
+    /* letter-spacing: 2px; */
+}
+
+input[type=text],
+input[type=password] {
+    margin-top: 0.5rem;
+    line-height: 1.5;
+    font-family: inherit;
+    width: 100%;
+    font-size: 16px;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: #212529;
+    color: white;
+    padding: 0.5rem 1rem;
+}
